@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
   <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
   <link href="./build.css" rel="stylesheet">
   <title>Jesús Enrique Cartas Rascón — CV</title>
@@ -40,16 +41,20 @@
               <i class="material-icons" style="vertical-align:bottom">call</i>: <a href="tel:685 535 007"> 685 535 007 </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">mail</i>: <a href="mailto:blograso@gmail.com"> blograso@gmail.com </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">code</i>: <a href="https://github.com/jesi-rgb"> jesi-rgb </a>
-              
-              <select class="inline ml-48" onchange="localize(this.options[this.selectedIndex].value)">
-                <option value="en" selected> 🇺🇸🇬🇧 English</option>
-                <option value="es">🇪🇸🇲🇽 Español</option>
-              </select>
             </h3>
+              
             
           </li>
         </ul>
-
+        
+        <div class="ml-48">
+          <span lang=es class="text-gray-700"> Idioma:</span>
+          <span lang=en class="text-gray-700"> Language:</span>
+          <select class="inline text-gray-700" onchange="localize(this.options[this.selectedIndex].value)">
+            <option value="en" selected>English</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
       </header>
       <!-- end Name -->
       
@@ -170,7 +175,7 @@
               Advanced knowledge about graphic design as well as video and photo editing software.
             </p>
             <p lang=es class="mt-2.1 text-md text-gray-700 leading-normal">
-              Experiencia con software de diseño, así como de creación de contenido audiovisual con la suite de Adobe.
+              Experiencia con software de diseño, así como de creación de contenido audiovisual con la suite de Adobe. <br>
               Nociones avanzadas de diseño gráfico así como con programas de edición de fotografía y vídeo.
             </p>
           </section>
