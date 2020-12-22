@@ -36,24 +36,26 @@
 
           </li>
           <li>
-            <h3 class="text-gray-700"> 
+            <h3 class="text-gray-700 grid-cols-2"> 
               <i class="material-icons" style="vertical-align:bottom">call</i>: <a href="tel:685 535 007"> 685 535 007 </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">mail</i>: <a href="mailto:blograso@gmail.com"> blograso@gmail.com </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">code</i>: <a href="https://github.com/jesi-rgb"> jesi-rgb </a>
+              
+              <select class="inline ml-48" onchange="localize(this.options[this.selectedIndex].value)">
+                <option value="en" selected> 🇺🇸🇬🇧English</option>
+                <option value="es">🇪🇸🇲🇽Español</option>
+              </select>
             </h3>
             
           </li>
         </ul>
+
       </header>
       <!-- end Name -->
       
 
       <!-- Column md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto-->
       <div class="md:col-count-3 print:col-count-3 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
-        <select onchange="localize(this.options[this.selectedIndex].value)">
-          <option value="en" selected>English</option>
-          <option value="es">Español</option>
-        </select>
 
         <section class="mt-8 first:mt-0">
 
@@ -241,10 +243,10 @@
                   Asistente informático del Gabinete de Comunicación y Proyección Institucional <hr class="mb-2">
                 </h3>
                 <p lang=en class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> 3 September 2019 – 3 March 2020
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 3 September 2019 – 3 March 2020
                 </p>
                 <p lang=es class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> 3 Septiembre 2019 – 3 Marzo 2020
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 3 Septiembre 2019 – 3 Marzo 2020
                 </p>
                 <p class="mt-1 leading-normal text-md italic text-gray-600">
                   <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
@@ -271,17 +273,23 @@
                   Curso de procesamiento de imagen openCV <hr class="mb-2">
                 </h3>
                 <p lang=en class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> May 2019 – August 2020
+                  <i class="material-icons" style="vertical-align:top">schedule</i> May 2019 – August 2020
                 </p>
                 <p lang=es class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> Mayo 2019 – Agosto 2020
+                  <i class="material-icons" style="vertical-align:top">schedule</i> Mayo 2019 – Agosto 2020
                 </p>
                 <p class="mt-1 leading-normal text-md italic text-gray-600">
                   <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> OpenCV
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
-                <ul>
+                <ul lang=en>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Completed with merits. <a href="https://courses.opencv.org/certificates/4c289fa2100447739ea73fa638dfd9f5" class="group">Link <span class="inline-block text-gray-500 print:text-black font-normal group-hover:text-gray-800 transition duration-100 ease-in">↗</span></a> al diploma</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Great understanding and control over the concepts and pipelines begind image processing</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Real time image processing</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Neural network training and machine learning algorithms involved</li>
+                </ul>
+                <ul lang=es>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Completado con éxito. <a href="https://courses.opencv.org/certificates/4c289fa2100447739ea73fa638dfd9f5" class="group">Link <span class="inline-block text-gray-500 print:text-black font-normal group-hover:text-gray-800 transition duration-100 ease-in">↗</span></a> al diploma</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Gran entendimiento y control sobre el funcionamiento y procesado de la imagen</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Procesamiento en tiempo real</li>
@@ -299,24 +307,39 @@
           <!-- To keep in the same column -->
           <div class="break-inside-avoid">
 
-            <h2 class="mb-1 text-blue-400 font-bold tracking-widest text-lg print:font-normal">
+            <h2 lang=en class="mb-1 text-blue-400 font-bold tracking-widest text-lg print:font-normal">
+              EDUCATION
+            </h2>
+            <h2 lang=es class="mb-1 text-blue-400 font-bold tracking-widest text-lg print:font-normal">
               EDUCACIÓN
-            </h2><hr class="mb-4">
+            </h2>
+            <hr class="mb-4">
 
             <section class="mb-4.5 break-inside-avoid">
               <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                <h3 lang=en class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Masters in Data Science and Computer Engineering <hr class="mb-2">
+                </h3>
+                <h3 lang=es class="text-lg font-semibold text-gray-700 leading-snugish">
                   Máster oficial en Ciencia de Datos e Ingeniería de Computadores <hr class="mb-2">
                 </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> 2020 - presente (1 año)
+                <p lang=en class="leading-normal text-md text-gray-650">
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 2020 - now (1 year)
+                </p>
+                <p lang=es class="leading-normal text-md text-gray-650">
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 2020 - presente (1 año)
                 </p>
                 <p class="mt-1 leading-normal text-md italic text-gray-600">
                   <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Granada
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
-                <ul>
+                <ul lang=en>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Development of exploratory analysis skills</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Report making to assist in decision making problems</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Search for interesting problems for the presented problems</li>
+                </ul>
+                <ul lang=es>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Desarrollo de habilidades para el análisis exploratorio</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Desarrollo de informes para ayuda a la decisión</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Búsqueda de soluciones interesantes para los problemas planteados</li>
@@ -326,18 +349,30 @@
 
             <section class="mb-4.5 break-inside-avoid">
               <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                <h3 lang=en class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Computer Science Degree <hr class="mb-2">
+                </h3>
+                <h3 lang=es class="text-lg font-semibold text-gray-700 leading-snugish">
                   Grado en Ingeniería Informática <hr class="mb-2">
                 </h3>
-                <p class="leading-normal text-md text-gray-650">
-                  <i class="material-icons" style="vertical-align:bottom">schedule</i> 2016 - 2020 (4 años)
+                <p lang=en class="leading-normal text-md text-gray-650">
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 2016 - 2020 (4 years)
+                </p>
+                <p lang=es class="leading-normal text-md text-gray-650">
+                  <i class="material-icons" style="vertical-align:top">schedule</i> 2016 - 2020 (4 años)
                 </p>
                 <p class="mt-1 leading-normal text-md italic text-gray-600">
                   <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
-                <ul>
+                <ul lang=en>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Maximum calification and nominated to pass with honors: <span class="italic text-gray-550"> Detecting and identifying animals in camera-trap images</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Average of 7.5 and two subject passed with honors</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Assisted several FoCo courses </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Bass singer at the UJA choir group</li>
+                </ul>
+                <ul lang=es>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Máxima calificación y propuesta para matrícula de honor en TFG: <span class="italic text-gray-550"> Detección e identificación de animales en imágenes de foto-trampeo</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Nota media de 7.5 con dos matrículas de honor</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Participación en varios cursos FoCo</li>
