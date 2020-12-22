@@ -23,8 +23,8 @@
     <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
 
       <!-- Name -->
-      <header class="flex items-center mb-8 md:mb-11">
-        <div   class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+      <header class="flex items-center mb-8 md:mb-11 grid-col-2">
+        <div class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
           style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
           <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">J</div>
           <div class="text-center initial">E</div>
@@ -38,7 +38,7 @@
           </li>
           <li>
             <h3 class="text-gray-700 grid-cols-2"> 
-              <i class="material-icons" style="vertical-align:bottom">call</i>: <a href="tel:685 535 007"> 685 535 007 </a>
+              <i class="material-icons" style="vertical-align:bottom">call</i>: <a href="tel:+34685535007"> (+34) 685 535 007 </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">mail</i>: <a href="mailto:blograso@gmail.com"> blograso@gmail.com </a>
               <i class="material-icons ml-3" style="vertical-align:bottom">code</i>: <a href="https://github.com/jesi-rgb"> jesi-rgb </a>
             </h3>
@@ -46,18 +46,19 @@
             
           </li>
         </ul>
-        
-        <div class="ml-48">
+      </header>
+      <!-- end Name -->
+
+      <div class="my-3 md:max-w-letter bg-white">
+        <div class="object-right">
           <span lang=es class="text-gray-700"> Idioma:</span>
           <span lang=en class="text-gray-700"> Language:</span>
           <select class="inline text-gray-700" onchange="localize(this.options[this.selectedIndex].value)">
-            <option value="en" selected>English</option>
             <option value="es">Español</option>
+            <option value="en" selected>English</option>
           </select>
         </div>
-      </header>
-      <!-- end Name -->
-      
+      </div>
 
       <!-- Column md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto-->
       <div class="md:col-count-3 print:col-count-3 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
@@ -253,8 +254,11 @@
                 <p lang=es class="leading-normal text-md text-gray-650">
                   <i class="material-icons" style="vertical-align:top">schedule</i> 3 Septiembre 2019 – 3 Marzo 2020
                 </p>
-                <p class="mt-1 leading-normal text-md italic text-gray-600">
-                  <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
+                <p lang=en class="mt-1 leading-normal text-md italic text-gray-600">
+                  <br><i lang=en class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> University of Jaén
+                </p>
+                <p lang=es class="mt-1 leading-normal text-md italic text-gray-600">
+                 <br> <i lang=es class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
@@ -334,8 +338,11 @@
                 <p lang=es class="leading-normal text-md text-gray-650">
                   <i class="material-icons" style="vertical-align:top">schedule</i> 2020 - presente (1 año)
                 </p>
-                <p class="mt-1 leading-normal text-md italic text-gray-600">
-                  <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Granada
+                <p lang=en class="mt-1 leading-normal text-md italic text-gray-600">
+                  <br><i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> University of Granada
+                </p>
+                <p lang=es class="mt-1 leading-normal text-md italic text-gray-600">
+                  <br><i lang=es class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Granada
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
@@ -366,20 +373,23 @@
                 <p lang=es class="leading-normal text-md text-gray-650">
                   <i class="material-icons" style="vertical-align:top">schedule</i> 2016 - 2020 (4 años)
                 </p>
-                <p class="mt-1 leading-normal text-md italic text-gray-600">
-                  <i class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
+                <p lang=en class="mt-1 leading-normal text-md italic text-gray-600">
+                  <br><i lang=en class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> University of Jaén
+                </p>
+                <p lang=es class="mt-1 leading-normal text-md italic text-gray-600">
+                  <br><i lang=es class="pd-10 material-icons" style="vertical-align:bottom">location_city</i> Universidad de Jaén
                 </p>
               </header>
               <p class="mt-2.1 text-md leading-normal">
                 <ul lang=en>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Maximum calification and nominated to pass with honors: <span class="italic text-gray-550"> Detecting and identifying animals in camera-trap images</li>
-                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Average of 7.5 and two subject passed with honors</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Average of 7.5 / 10 and two subjects passed with honors</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Assisted several FoCo courses </li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Bass singer at the UJA choir group</li>
                 </ul>
                 <ul lang=es>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Máxima calificación y propuesta para matrícula de honor en TFG: <span class="italic text-gray-550"> Detección e identificación de animales en imágenes de foto-trampeo</li>
-                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Nota media de 7.5 con dos matrículas de honor</li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">› Nota media de 7.5 / 10 con dos matrículas de honor</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Participación en varios cursos FoCo</li>
                   <li class="mt-2.1 text-md text-gray-700 leading-normal">› Participación en el grupo coral de la UJA</li>
                 </ul>
